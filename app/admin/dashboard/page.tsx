@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Bar, Doughnut } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/sidebar";
 
 Chart.register(...registerables);
 

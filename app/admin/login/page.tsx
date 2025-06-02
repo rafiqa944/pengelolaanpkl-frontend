@@ -18,6 +18,7 @@ const AdminLoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+
   const handleShowPassword = () => setShowPassword((prev) => !prev);
 
   const handleLogin = async () => {
@@ -51,6 +52,8 @@ const AdminLoginPage = () => {
       setErrorMessage(error.message);
     }
   };
+
+  
 
  return (
     <div className="min-h-screen w-screen bg-red-700 flex items-center justify-center">
